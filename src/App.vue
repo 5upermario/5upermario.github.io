@@ -27,11 +27,11 @@
 							<v-tab>Hobbi</v-tab>
 
 							<v-tab-item>
-								<ExperienceTimeline />
+								<ExperienceTimeline/>
 							</v-tab-item>
 
 							<v-tab-item>
-								<StudyTimeline />
+								<StudyTimeline/>
 							</v-tab-item>
 
 							<v-tab-item>
@@ -72,13 +72,27 @@
 						<v-card>
 							<v-img src="profile.jpg"></v-img>
 
-							<v-card-title primary-title><h2>Gergely Dávid</h2></v-card-title>
+							<v-card-title primary-title>
+								<h2>Gergely Dávid</h2>
+							</v-card-title>
 							<v-card-title>Végzettség: Programozó informatikus</v-card-title>
 							<v-card-title>Születési hely, idő: Budapest, 1991. június 17.</v-card-title>
 
+							<v-card-text>
+								<a href="https://sourcerer.io/5upermario" target="_blank">
+									<img alt="Sourcerer" height="32px" src="https://sourcerer.io/icons/logo-sharing.svg">
+								</a>
+							</v-card-text>
+
 							<v-card-actions>
-								<v-btn href="https://www.linkedin.com/in/d%C3%A1vid-gergely-23329399/" target="_blank">LinkedIn</v-btn>
+								<v-btn
+									href="https://www.linkedin.com/in/d%C3%A1vid-gergely-23329399/"
+									target="_blank"
+								>LinkedIn</v-btn>
+
 								<v-btn href="https://jsfiddle.net/user/5upermario/fiddles/" target="_blank">jsfiddle</v-btn>
+
+								<v-btn href="https://profile.codersrank.io/user/5upermario" target="_blank">Codersrank</v-btn>
 							</v-card-actions>
 						</v-card>
 					</v-flex>
@@ -98,10 +112,10 @@ export default {
 		ExperienceTimeline,
 		StudyTimeline
 	},
-	data () {
+	data() {
 		return {
 			//
-		}
+		};
 	}
-}
+};
 </script>
